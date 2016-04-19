@@ -1,6 +1,11 @@
 # A down-and-dirty scraper to grab as many Ikea products as possible
 # This was used to create a 2500 product seed file for our group project
 
+# Each .csv of products will get saved to ./products. I've left A.csv there
+# to show you what the output looks like.  When importing this to our app,
+# we found variations in several products that required hand-editing to
+# allow their import.  YMMV.
+
 # Obviously, this could use a lot of cleaning up!
 
 require 'nokogiri'
